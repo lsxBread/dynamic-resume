@@ -1,5 +1,5 @@
 !function() {
-    var step = 1;
+    var step = 5;
     function writeCSS(prefix, css, callback) {
         let counter = 0;
         let domCode = document.querySelector('pre.code');
@@ -545,7 +545,7 @@
         </div>
 
         <div class="btn-download-wrapper">
-            <a class="btn-download" href="./Resume.pdf" target="_blank" download>DOWNLOAD CV & RESUME</a>
+            <a class="btn-download" href="./file/Resume.pdf" target="_blank" download>DOWNLOAD CV & RESUME</a>
         </div>
 
         <p id="selfIntroduction">
